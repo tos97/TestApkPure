@@ -10,6 +10,11 @@
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
+#Cucumber
+node_modules
+*/node_modules
+/package-lock.json
+
 # Package Files #
 *.jar
 *.war
@@ -19,5 +24,26 @@
 *.tar.gz
 *.rar
 
+#Files
+*.log
+*.dex
+*.apk
+*.exe
+*.jks
+
+#Genereted Files
+bin/
+gen/
+out/
+target/
+logs/
+screenshot/
+driver/
+report/
+*/node_modules
+/package-log.json
+
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+
+.idea/
